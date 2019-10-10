@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Importação do bootStrap para icones -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+         crossorigin="anonymous">
+        <title>Anime.JS</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        
+
+        <!-- Formas de criar classes e ids de forma mais mais rapida
+            #id_div - cria div com um id 
+            .class_div - cria uma div class
+            .class_div * n - cria determinada quantidade de divs
+            button.play - tipo de elemento e o seu nome
+        -->
+        <div id="boxes">
+            <div id="btns">
+                <!-- usando a classe que vem do font awesome, bootStrap -->
+                <button class="play"><i class='fa fa-play-circle'></i></button>
+                <button class="pause"><i class='fa fa-pause-circle'></i></button>
+            </div>
+                <div class="box red"></div>
+                <div class="box blue"></div>
+                <div class="box green"></div>
+                <div class="box yellow"></div>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"
+        integrity="sha256-kRbW+SRRXPogeps8ZQcw2PooWEDPIjVQmN1ocWVQHRY=" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
